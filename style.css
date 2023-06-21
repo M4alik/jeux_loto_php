@@ -1,0 +1,51 @@
+#formulaire , #grille , #tirage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 70%;
+    margin: 1em auto;
+    margin-top: 2em;
+    background-color: antiquewhite;
+    border: solid red 3px;
+    
+}
+.case{
+    width: 4em;
+}
+
+.case input{
+    width: 2em;
+    height: 2em;
+}
+
+.case label {
+    position: relative;
+    left: -45%;
+    top: -20%;
+}
+
+button{
+    display: block;
+    margin: 1em auto;
+}
+
+.numero {
+    width: 1em;
+    height: 1em;
+    font-size: 2em;
+    border: solid black 1px;
+    border-radius: 50px;
+    padding: 0.3em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+.vert{
+    background-color: green;
+}
+.rouge{
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
